@@ -57,7 +57,7 @@ header.navbar-container .nav-list li:hover a {
   color: white;
 }
 
-main {
+section {
     max-width: 1200px;
     width: 100%;
     margin-inline: auto;
@@ -68,27 +68,27 @@ main {
     align-items: center;
 }
 
-main .content {
+section .content {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-main .content .content-description {
+section .content .content-description {
     flex: 1 1;
 }
 
-main .content .content-description .title {
+section .content .content-description .title {
     font-size: 3.5rem;
     margin-block: 1rem;
 }
 
-main .content .content-description p {
+section .content .content-description p {
     line-height: 1.7rem;
     font-size: 1.2rem;
 }
 
-main .content .content-description button {
+section .content .content-description button {
     padding: .8rem 2.5rem;
     margin-block-start: 1rem;
     text-transform: uppercase;
@@ -104,35 +104,35 @@ main .content .content-description button {
     transition: all .15s ease-in;
   }
    
-  main .content .content-description button:hover {
+  section .content .content-description button:hover {
     border: 3px solid #f4313f;
     color: #f4313f;
     background-color: transparent;
   }
    
-  main .content .content-image {
+  section .content .content-image {
     flex: 1;
     display: flex;
   }
    
-  main .content .content-image img {
+  section .content .content-image img {
     margin: auto;
     min-width: 250px;
     width: 300px;
   }
 
-  main aside {
+  section nav {
     position: fixed;
     inset-block: 0;
     inset-inline-end: 0;
   }
    
-  main aside .social-media {
+  section nav .social-media {
     height: 100%;
     display: flex;
   }
    
-  main aside .social-media ul {
+  section nav .social-media ul {
     padding: 1.5rem 1rem;
     margin: auto;
     border-top-left-radius: 12px;
@@ -146,18 +146,18 @@ main .content .content-description button {
     gap: 1.5rem;
   }
    
-  main aside .social-media li {
+  section nav .social-media li {
     list-style-type: none;
   }
 
-  main aside .social-media li a {
+  section nav .social-media li a {
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
     transition: all .1s ease-in-out;
   }
    
-  main aside .social-media li a:hover {
+  section nav .social-media li a:hover {
     color: #89b0d9;
   }
 
@@ -183,24 +183,24 @@ footer .footer-container {
       column-gap: .5rem;
     }
    
-    main {
+    section {
       padding: 1rem 3rem;
     }
    
-    main .content {
+    section .content {
       flex-direction: column;
       gap: 2rem;
     }
    
-    main .content .content-description .title {
+    section .content .content-description .title {
       font-size: 3rem;
     }
    
-    main .content .content-description p {
+    section .content .content-description p {
       font-size: 1rem;
     }
    
-    main .content .content-image {
+    section .content .content-image {
       order: -1;
     }
   }
